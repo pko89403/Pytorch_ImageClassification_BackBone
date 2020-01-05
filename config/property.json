@@ -1,0 +1,14 @@
+{ 
+    "MODEL" :
+    {
+        "IMAGE_AXIS_LENGTH" : 224,
+        "BATCH_SIZE" : 256,
+        "CLASS" : 7,
+        "LEARNING_RATE" : 1e-3,
+        "EPOCH" : 50,
+        "PRINT_STEP" : 10,
+        "VALIDATION_SIZE" : 0.2,
+        "MODEL_SAVE_PATH" : "saved_model/",
+        "DATA_LOAD_PATH" : "dataset/raw/"
+    }
+}
